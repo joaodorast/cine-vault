@@ -39,7 +39,7 @@ const Footer = () => (
           </div>
         </div>
 
-        {/* Sobre */}
+    
         <div>
           <h4 className="text-sm font-semibold text-foreground mb-4">Sobre</h4>
           <div className="flex flex-col gap-2.5">
