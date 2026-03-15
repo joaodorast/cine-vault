@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className="border-t border-border/30 pt-16 pb-8">
     <div className="container mx-auto px-6">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mb-12">
-        {/* Brand */}
+    
         <div className="col-span-2 md:col-span-1">
           <Link to="/" className="flex items-center gap-2 mb-4">
             <span className="text-2xl font-extrabold tracking-tighter text-primary">CINE</span>
@@ -14,9 +14,9 @@ const Footer = () => (
           <p className="text-xs text-muted-foreground leading-relaxed max-w-[240px]">
             A plataforma definitiva para os amantes de cinema. Descubra, avalie e explore o universo cinematográfico.
           </p>
-        </div>
+        </div>   
 
-        {/* Explorar */}
+        
         <div>
           <h4 className="text-sm font-semibold text-foreground mb-4">Explorar</h4>
           <div className="flex flex-col gap-2.5">
@@ -28,7 +28,7 @@ const Footer = () => (
           </div>
         </div>
 
-        {/* Comunidade */}
+       
         <div>
           <h4 className="text-sm font-semibold text-foreground mb-4">Comunidade</h4>
           <div className="flex flex-col gap-2.5">
