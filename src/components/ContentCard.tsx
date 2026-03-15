@@ -8,7 +8,7 @@ interface ContentCardProps {
   item: Movie;
   index?: number;
   showType?: boolean;
-}
+}   
 
 const itemVariants = {
   hidden: { y: 20, opacity: 0, filter: "blur(10px)" },

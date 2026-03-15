@@ -17,7 +17,7 @@ const SectionHeader = ({ titulo, subtitulo, link, icon: Icon }: { titulo: string
   <motion.div
     initial={{ y: 20, opacity: 0 }}
     whileInView={{ y: 0, opacity: 1 }}
-    viewport={{ once: true, margin: "-100px" }}
+    viewport={{ once: true, margin: "-100px" }}      
     transition={{ duration: 0.6, ease: [0.2, 0.8, 0.2, 1] }}
     className="flex items-end justify-between mb-8"
   >

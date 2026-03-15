@@ -19,7 +19,7 @@ import heroFeatured from "@/assets/hero-featured.jpg";
 export type ContentType = "filme" | "serie" | "documentario" | "curta" | "animacao";
 
 export interface Movie {
-  id: string;
+  id: string;     
   titulo: string;
   tituloOriginal: string;
   ano: number;
